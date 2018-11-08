@@ -20,10 +20,8 @@ meta:
   target: training
   url: https://pipes.starkandwayne.com
 name: russTbaker-nginx
-release:
-  name: russTbaker-nginx
 releases:
-- name: nginx
+- name: russTbaker-nginx
   version: latest
 stemcells:
 - alias: default
