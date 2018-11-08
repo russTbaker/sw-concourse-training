@@ -19,4 +19,4 @@ bosh alias-env ${BOSH_ENVIRONMENT} --ca-cert training-bosh.pem -e ${BOSH_DIRECTO
 
 bosh login
 
-bosh upload-release releases/release.gz
+bosh upload-release releases/release.gz -d rbaker-nginx
