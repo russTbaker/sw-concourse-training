@@ -8,7 +8,7 @@ instance_groups:
   instances: 1
   jobs:
   - name: nginx
-    release: nginx
+    release: russTbaker-nginx
   name: nginx
   networks:
   - name: default
